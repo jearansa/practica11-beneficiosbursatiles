@@ -6,9 +6,6 @@ on:
   schedule:
     - cron:  '0 13 * * *'
   workflow_dispatch:
-    types: invocacion_desde_curl	
-
-
 
 jobs:
   autoscrape:
